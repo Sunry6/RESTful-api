@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"go/foundation/restful/handler/status"
-	"go/foundation/restful/router/middleware"
+	"go/found/restful/handler/status"
+	"go/found/restful/router/middleware"
 	"net/http"
 )
 

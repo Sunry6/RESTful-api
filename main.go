@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"go/foundation/restful/router"
+	"go/found/restful/router"
 	"log"
 	"net/http"
 )
@@ -13,10 +13,7 @@ func main() {
 	middlewares := []gin.HandlerFunc{}
 
 	// 路由
-	router.Load(
-		g,
-		middlewares...,
-	)
+	router.Load(g, middlewares...)
 
 	go func() {
 
